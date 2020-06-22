@@ -1,0 +1,43 @@
+action:
+  - PosAttack
+  - SPosAttack
+  - VileAttack
+  - SkelMissile
+  - FatAttack1
+  - FatAttack2
+  - FatAttack3
+  - CPosAttack
+  - TroopAttack
+  - SargAttack
+  - HeadAttack
+  - BruisAttack
+  - SkullAttack
+  - BspiAttack
+  - CyberAttack
+  - PainAttack
+
+frame:
+  - 185
+  - 218
+  - 264
+  - 341
+  - 377
+  - 380
+  - 383
+  - 417
+  - 418
+  - 454
+  - 487
+  - 506
+  - 539
+  - 568
+  - 590
+  - 616
+  - 617
+  - 648
+  - 685
+  - 687
+  - 689
+  - 711
+  - 738
+  - 740
