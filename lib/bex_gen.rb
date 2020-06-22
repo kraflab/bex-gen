@@ -16,7 +16,7 @@ module BexGen
     puts ""
     puts "[CODEPTR]"
     attack['frame'].each do |frame|
-      action = attack['action'].sample
+      action = pick_action(attack, frame)
       puts "FRAME #{frame} = #{action}"
     end
     puts ""
@@ -26,6 +26,14 @@ module BexGen
 
   def load_config(filename)
     YAML.load(File.read(filename))
+  end
+
+  def pick_action(attack, frame)
+    while true
+      action = attack['action'].sample
+
+      return action unless attack['exclusions'][frame]&.include?(action)
+    end
   end
 end
 

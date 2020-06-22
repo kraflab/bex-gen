@@ -1,43 +1,49 @@
 action:
-  - PosAttack
-  - SPosAttack
-  - VileAttack
-  - SkelMissile
-  - FatAttack1
-  - FatAttack2
-  - FatAttack3
-  - CPosAttack
-  - TroopAttack
-  - SargAttack
-  - HeadAttack
-  - BruisAttack
-  - SkullAttack
-  - BspiAttack
-  - CyberAttack
-  - PainAttack
+  - PosAttack   # Trooper
+  - SPosAttack  # Sargeant
+  - VileAttack  # Archvile
+  - SkelMissile # Revenant
+  - FatAttack1  # Mancubus (1)
+  - FatAttack2  # Mancubus (2)
+  - FatAttack3  # Mancusub (3)
+  - CPosAttack  # Chaingunner
+  - TroopAttack # Imp
+  - SargAttack  # Demon
+  - HeadAttack  # Cacodemon
+  - BruisAttack # Baron
+  - SkullAttack # Lost Soul
+  - BspiAttack  # Arachnotron
+  - CyberAttack # Cyberdemon
+  - PainAttack  # Pain Elemental
 
 frame:
-  - 185
-  - 218
-  - 264
-  - 341
-  - 377
-  - 380
-  - 383
-  - 417
-  - 418
-  - 454
-  - 487
-  - 506
-  - 539
-  - 568
-  - 590
-  - 616
-  - 617
-  - 648
-  - 685
-  - 687
-  - 689
-  - 711
-  - 738
-  - 740
+  - 185 # Trooper
+  - 218 # Sargeant
+  - 264 # Archvile
+  - 341 # Revenant
+  - 377 # Mancubus (1)
+  - 380 # Mancubus (2)
+  - 383 # Mancusub (3)
+  - 417 # Chaingunner (1)
+  - 418 # Chaingunner (2)
+  - 454 # Imp
+  - 487 # Demon
+  - 506 # Cacodemon
+  - 539 # Baron
+  - 568 # Hell Knight
+  - 590 # Lost Soul
+  - 616 # Mastermind (1)
+  - 617 # Mastermind (2)
+  - 648 # Arachnotron
+  - 685 # Cyberdemon (1)
+  - 687 # Cyberdemon (2)
+  - 689 # Cyberdemon (3)
+  - 711 # Pain Elemental
+  - 738 # SS (1)
+  - 740 # SS (2)
+
+exclusions:
+  417:
+    - SkullAttack
+  418:
+    - SkullAttack
