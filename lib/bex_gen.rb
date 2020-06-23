@@ -1,4 +1,5 @@
 require 'yaml'
+require_relative 'bex_gen/header'
 
 module BexGen
   extend self
@@ -6,14 +7,8 @@ module BexGen
   def call
     attack = load_config('config/attack.yml')
 
-    puts "Patch File for DeHackEd v3.0"
-    puts "# Created with BexGen"
-    puts "# Note: Use the pound sign ('#') to start comment lines."
-    puts ""
-    puts "Doom version = 21"
-    puts "Patch format = 6"
-    puts ""
-    puts ""
+    Header.print
+
     puts "[CODEPTR]"
     attack['frame'].each do |frame|
       action = pick_action(attack, frame)
