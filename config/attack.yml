@@ -43,7 +43,41 @@ frame:
   - 740 # SS (2)
 
 exclusions:
+  218:
+    - SkullAttack
+  264:
+    - SkullAttack
+  341:
+    - SkullAttack
+  377:
+    - SkullAttack
+  380:
+    - SkullAttack
+  383:
+    - SkullAttack
   417:
     - SkullAttack
   418:
+    - SkullAttack
+  454:
+    - SkullAttack
+  506:
+    - SkullAttack
+  539:
+    - SkullAttack
+  568:
+    - SkullAttack
+  648:
+    - SkullAttack
+  685:
+    - SkullAttack
+  687:
+    - SkullAttack
+  689:
+    - SkullAttack
+  711:
+    - SkullAttack
+  738:
+    - SkullAttack
+  740:
     - SkullAttack
