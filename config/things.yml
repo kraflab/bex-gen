@@ -1,0 +1,131 @@
+zombieman:
+  attack_actions:
+    - PosAttack
+  attack_frames:
+    - 185
+  exclusions: []
+
+shotgunner:
+  attack_actions:
+    - SPosAttack
+  attack_frames:
+    - 218
+  exclusions:
+    - SkullAttack
+
+archvile:
+  attack_actions:
+    - VileAttack
+  attack_frames:
+    - 264
+  exclusions:
+    - SkullAttack
+
+revenant:
+  attack_actions:
+    - SkelMissile
+  attack_frames:
+    - 341
+  exclusions:
+    - SkullAttack
+
+mancubus:
+  attack_actions:
+    - FatAttack1
+    - FatAttack2
+    - FatAttack3
+  attack_frames:
+    - 377
+    - 380
+    - 383
+  exclusions:
+    - SkullAttack
+
+chaingunner:
+  attack_actions:
+    - CPosAttack
+  attack_frames:
+    - 417
+    - 418
+  exclusions:
+    - SkullAttack
+
+imp:
+  attack_actions:
+    - TroopAttack
+  attack_frames:
+    - 454
+  exclusions:
+    - SkullAttack
+
+demon:
+  attack_actions:
+    - SargAttack
+  attack_frames:
+    - 487
+  exclusions: []
+
+cacodemon:
+  attack_actions:
+    - HeadAttack
+  attack_frames:
+    - 506
+  exclusions:
+    - SkullAttack
+
+baron:
+  attack_actions:
+    - BruisAttack
+  attack_frames:
+    - 539
+    - 568
+  exclusions:
+    - SkullAttack
+
+lost_soul:
+  attack_actions:
+    - SkullAttack
+  attack_frames:
+    - 590
+  exclusions: []
+
+mastermind:
+  attack_actions: []
+  attack_frames:
+    - 616
+    - 617
+  exclusions: []
+
+arachnotron:
+  attack_actions:
+    - BspiAttack
+  attack_frames:
+    - 648
+  exclusions:
+    - SkullAttack
+
+cyberdemon:
+  attack_actions:
+    - CyberAttack
+  attack_frames:
+    - 685
+    - 687
+    - 689
+  exclusions:
+    - SkullAttack
+
+pain_elemental:
+  attack_actions:
+    - PainAttack
+  attack_frames:
+    - 711
+  exclusions:
+    - SkullAttack
+
+ss:
+  attack_actions: []
+  attack_frames:
+    - 738
+    - 740
+  exclusions:
+    - SkullAttack
