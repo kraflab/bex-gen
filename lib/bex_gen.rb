@@ -10,6 +10,7 @@ module BexGen
 
     puts "[CODEPTR]"
     things.scramble_attacks
+    things.populate_empty_frames
     puts ""
   end
 

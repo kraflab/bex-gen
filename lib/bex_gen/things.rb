@@ -15,7 +15,19 @@ module BexGen
         attributes['attack_frames'].each do |frame|
           action = pick_attack_action(attributes)
 
-          puts "FRAME #{frame} = #{action}"
+          print_code_pointer(frame, action)
+        end
+      end
+    end
+
+    def populate_empty_frames
+      config.each do |thing, attributes|
+        attributes['empty_frames'].each do |frame|
+          if rand() < 0.1
+            action = pick_attack_action(attributes)
+
+            print_code_pointer(frame, action)
+          end
         end
       end
     end
@@ -36,6 +48,10 @@ module BexGen
       attack_actions.reject do |action|
         attributes['exclusions'].include?(action)
       end
+    end
+
+    def print_code_pointer(frame, action)
+      puts "FRAME #{frame} = #{action}"
     end
   end
 end
